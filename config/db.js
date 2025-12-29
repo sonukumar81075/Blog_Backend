@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 
 export const connectDB = async () => {
-  const uri = "mongodb://localhost:27017/Blog-App"
+  const uri = "mongodb+srv://sonusaini:blog12345678@cluster0.v3qldvn.mongodb.net"
   if (!uri) {
     throw new Error('MONGODB_URI is not set')
   }
